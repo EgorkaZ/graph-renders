@@ -26,7 +26,7 @@ impl SparceGraphConnections {
     }
 }
 
-struct EdgeIter<'s> {
+pub struct EdgeIter<'s> {
     edges: &'s [usize],
 }
 
